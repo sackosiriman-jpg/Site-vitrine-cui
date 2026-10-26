@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centre Informatique Universitaire</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>CIU</h1>
+                <P>ESCAE</P>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Acceuil"></a>Acceuil</li>
+                    <li><a href="Formations"></a>Formation</li>
+                    <li><a href="Contact"></a>Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <h2>Bienvenue au Centre Informatique Universitaire</h2>
+            <p>Former-vous aux métiers du numérique avec exellence et innovation</p>
+            <a href="Formations" class="btn">Decouvrire nos formations</a>
+        </div>
+    </section>
+    <section id="Formations" class="Formations">
+        <div class="container">
+            <h2>Nos Formations</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Developpemet du web</h3>
+                    <p>Aprennez à creer des sites et applications web avec HTML, CSS, javascript.</p>
+                </div>
+                <div class="card">
+                    <h3> Réseaux Informatique</h3>
+                    <p>Maitriser l'administration Réseaux, la cybersécurité et les infrastructures Informatique</p>
+
+                </div>
+                <div class="card">
+                    <h3>Intelligence Artificielle</h3>
+                    <p>Decouvrez les applications IA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <form>
+                <div class="form-group">
+                    <label for="Nom">Nom</label>
+                    <input id="Nom" type="text" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input id="Email" type="email" placeholder="Votre email" required>
+                </div>
+                <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea id="Message" placeholder="Votre message..." rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn">Envoyer le message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy;2026 centre Informatique Universitaire-tous droits réservés </p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
