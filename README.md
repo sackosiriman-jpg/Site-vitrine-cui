@@ -1,4 +1,6 @@
 # Centre Informatique Universitaire — Website
+# Live Demo
+[Visit the live website](https://sackosiriman-jpg.github.io/Site-vitrine-cui/)
 
 This is a simple website for the Centre Informatique Universitaire (CIU), created as part of my web development learning journey. It introduces the center and showcases a few of its computer science courses.
 
